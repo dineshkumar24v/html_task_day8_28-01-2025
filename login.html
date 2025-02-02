@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In</title>
+</head>
+<body>
+  <form action="login_succesful.html">
+    <center>
+    <br><br><br>
+  
+      <div style="background-color: rgb(254, 255, 255); width: 65vh; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; border-radius: 8px;"><br>
+        <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Log in to your account</p>
+
+        <label for="username"></label>
+        <input type="email" id="username" placeholder="Email address or phone number" pattern="[a-z0-9._]+@[a-z]+\.[a-z]{2,4}" title="Username must contain letters and numbers only, and be at least 3 characters long"  required  style="width: 300px; height: 38px; border-radius: 5px;"><br><br>
+        
+        <label for="password"></label>
+        <input type="password" Pattern="[A-Za-z!@#$%^&*0-9]{8,}" title="At least 8 characters long, consisting of uppercase, lowercase, special characters, and digits"  name="password" id="password" required placeholder="Password" style="width: 300px; height: 38px; border-radius: 5px;"><br><br>
+  
+        <a href="succesfully.html">
+          <input type="submit" value="Log in" required style="width: 300px; height: 38px; border-radius: 5px; background-color: rgb(74, 156, 181); color: white; font-weight: 700;">
+        </a>
+        <br><br>
+        <a href="reset.html" style="text-decoration: none;  color: #6cbfbc;">Forgot Password? </a><br><br>
+        <a href="index.html" style="text-decoration: none;  color: #74c8c8;">Sign up</a>
+        <br><br>
+      </div>
+    </form>
+  <br><br><br>
+
+      <!-- footer--------->
+      <footer>
+        <br>
+        <hr style="width: 75%;">
+      </footer>
+    </center>
+  
+  
+</body>
+</html>

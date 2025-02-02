@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+</head>
+<body>
+
+  <form action="login.html">
+    <center>
+      <br><br>
+    <div style="background-color: rgb(254, 255, 255); width: 65vh; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; border-radius: 8px;">
+     <br>
+      <h2>Create a new account</h2>
+      <hr>
+    <br>
+      <label for="e1"></label>
+      <input type="text" placeholder="First name" required id="e1"><br><br>
+      <label for="e2"></label>
+      <input type="text" placeholder="Surname" required id="e2"><br><br>
+      <label for="e3">Date of birth</label>
+      <input type="date" id="e3" required><br><br>
+      <label for="">Gender:</label>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" required>
+      <label for="female">Female</label><br><br>
+
+      <label for="email"></label>
+      <input type="email" placeholder="email address" pattern="[a-z0-9._]+@[a-z]+\.[a-z]{2,4}" title="Username must contain letters and numbers only, and be at least 3 characters long" id="email" required style="width: 200px; height: 20px;"><br><br>
+
+      <label for="password"></label>
+      <input type="password" placeholder="New Password" id="password" Pattern="[A-Za-z!@#$%^&*0-9]{8,}" title="At least 8 characters long, consisting of uppercase, lowercase, special characters, and digits" required style="width: 200px; height: 20px;"><br><br>
+
+      <a href="login.html">
+        <input type="submit" value="Sign Up" required style="background-color: rgb(74, 156, 181); color: white; font-weight: 700; width: 150px; padding: 5px; border-radius: 5px;">
+      </a>
+      <br><br>
+      
+      <a href="login.html" style="color: rgb(93, 156, 148); text-decoration: none;">Already have an account? Sign in</a><br><br>
+    </div>
+  </center>
+</form>
+  
+<!-- footer----- -->
+  <footer>
+    <br>
+    <hr style="width: 75%;">
+  </footer>
+
+
+</body>
+</html>
